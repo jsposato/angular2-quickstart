@@ -5,9 +5,10 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { CustomerComponent } from './customer/customer.component';
 import { CustomersComponent } from './customer/customers.component';
+import { HttpModule } from '@angular/http';
 
 @NgModule( {
-  imports: [ BrowserModule, FormsModule ],
+  imports: [ BrowserModule, FormsModule, HttpModule ],
   declarations: [ AppComponent, CustomersComponent, CustomerComponent ],
   bootstrap: [ AppComponent ]
 } )
