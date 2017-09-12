@@ -36,7 +36,10 @@
     "systemjs": "0.19.40",
     "core-js": "^2.4.1",
     "rxjs": "5.0.1",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "typescript": "2.1.6",
+    "tslint": "3.15.1",
+    "tslint-sonarts": "^1.0.0"
   },
   "devDependencies": {
     "concurrently": "^3.2.0",
